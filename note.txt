@@ -1,0 +1,132 @@
+<style>
+
+.header-right-info .admin-name{
+  display: inline-block;
+    color: #000000;
+    font-size: 16px;
+    position: relative;
+    top: -2px;
+  margin-left:2px;
+}
+
+
+.header-right-info .nav>li>a>img{
+  width: 26px;
+    border-radius: 50%;
+}
+.header-right-info .nav>li>a>img{
+  width: 26px;
+    border-radius: 50%;
+}
+
+.header-top-menu .navbar-nav>li>a:hover {
+    color: #fff;
+}
+.header-right-info ul.header-right-menu > li > a{
+  display:inline-block;
+  color:#fff;
+  padding: 0px 0px 0px 20px;
+  font-size:20px;
+  text-decoration:none;
+  position:relative;
+}
+.nav>li>a>img{
+
+
+  max-width: none;
+}
+
+.nav{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header-right-info ul.header-right-menu li.open > a {
+    color: #fff;
+}
+.navbar-nav>li>a {
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+[role=button] {
+    cursor: pointer;
+}
+
+</style>
+       <div class="all-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="logo-pro">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-advance-area">
+            <div class="header-top-area">
+                <div class="container-fluid">
+                    <div class="row">
+                                    </div>  <div class="blancc"></div>
+                                        <div class="header-right-info">
+                                            <ul class="nav navbar-nav mai-top-nav header-right-menu">
+                                                <li class="nav-item dropdown">
+                                                    <div role="menu" class="author-message-top dropdown-menu animated zoomIn">
+                                                     
+                                                <li class="nav-item">
+                                                    <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+                                                            <img src="img/secretaire.png" alt="" />
+                                                            <span class="admin-name">Sec. Fortas Nadia</span> <br>
+
+
+                                                            <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
+                                                        </a>
+                                                    <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
+                                                        <li><a href="#"><span class="edu-icon edu-home-admin author-log-ic"></span>My Account</a>
+                                                        </li>
+                                                        <li><a href="#"><span class="edu-icon edu-user-rounded author-log-ic"></span>My Profile</a>
+                                                        </li>
+                                                        <li><a href="#"><span class="edu-icon edu-money author-log-ic"></span>User Billing</a>
+                                                        </li>
+                                                        <li><a href="#"><span class="edu-icon edu-settings author-log-ic"></span>Settings</a>
+                                                        </li>
+                                                        <li><a href="#"><span class="edu-icon edu-locked author-log-ic"></span>Log Out</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                
+                                                                                                </label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+
+                                                                </div>
+

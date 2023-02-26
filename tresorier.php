@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+</head>
+<body>
+
+<style>
+body{
+
+
+
+ background-image: url(adobestock144800681.jpg);
+ background-size: cover;
+ background-attachment: fixed;
+
+
+.content{
+background: white;
+
+
+}
+
+
+
+    }
+
+
+
+    
+
+</style>
+
+    <div class="container" style="margin-top: 100px;">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-md-offset-3" align="center">
+
+            
+
+
+
+
+
+
+               <form action="proc2.php" method="POST">
+                <img src="images/sath.png"><br><br>
+                <input class="form-control"  type="text"  id="nom_utilisateur"  name="nom_utilisateur" placeholder="Nom d'Utilisateur"><br>
+                <input class="form-control" type="password" id="mot_de_passe" name="mot_de_passe" placeholder="Mot de Passe"><br>
+                 <tr>
+                	
+                	<td align="right"><u> mot de passe oublié ?</u> </td>
+                </tr>
+                 <br>
+                 
+                 <button class="btn btn-success mt-3" type="submit" name="Login1">Connexion</button>
+                
+               </br>
+              </br>
+
+<a href="team.html" class="swagButton">Retour
+</a>
+
+               </form> 
+
+              <?php 
+
+
+
+
+                $fullUrl ="http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
+                if(strpos($fullUrl, "Connexion=empty") == true){
+                          echo "<p style='color:blue'> Saisissez un nom d'utilisateur et un Mot de passe </p>";
+                          exit();
+
+                }
+                if(strpos($fullUrl, "Connexion=usernameempty") == true){
+                          echo "<p style='color:blue'> Saisissez un nom d'utilisateur </p>";
+                          exit();
+
+                }
+                if(strpos($fullUrl, "Connexion=passwordempty") == true){
+                          echo "<p style='color:blue'> Saisissez un Mot de passe </p>";
+                          exit();
+
+                }
+                if(strpos($fullUrl, "Connexion=upf") == true){
+                          echo "<p style='color:blue'> nom d'utilisateur ou mot de passe incorrect !!!!!</p>";
+                          exit();
+
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  ?>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+</body>
+</html>
+
+
+<style>
+.swagButton{
+color: #31A6FF;
+font-family: "proxima nova";
+font-weight: 100;
+font-size: 20px;
+text-align: center;
+border: solid 2px #31A6FF;
+border-radius: 50px;
+padding: 10px 20px;
+margin-left: 10px;
+
+
+-webkit-transition-duration:200ms;
+transition-duration:200ms;
+}
+.swagButton:hover{
+
+background-color: #31A6FF;
+color: #fff;
+
+
+
+  }
+
+  
+
+</style>
