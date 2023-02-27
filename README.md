@@ -34,4 +34,7 @@ There are three user profiles (actors) for the intranet where each has a role ch
 ![aderent](https://user-images.githubusercontent.com/69325676/221585658-0c745b37-96e5-4ae3-bc8c-aced7749a673.PNG)
 ![presentation](https://user-images.githubusercontent.com/69325676/221587535-150e6cca-ce82-4cde-a91b-81a4fe15ce6d.PNG)
 ![edit](https://user-images.githubusercontent.com/69325676/221588814-fb669c4e-81f2-4a9b-993b-093724fbf1de.PNG)
-
+![bilan](https://user-images.githubusercontent.com/69325676/221590838-5398d964-8079-401e-91a6-156049b0a954.PNG)
+![modifier](https://user-images.githubusercontent.com/69325676/221591959-664160e8-89e3-43f4-b32a-c2075c71f4ef.PNG)
+![supp](https://user-images.githubusercontent.com/69325676/221593672-be937b91-d10f-49f0-8e9a-1f657fe75945.PNG)
+![annuaire](https://user-images.githubusercontent.com/69325676/221594077-f04c6330-3e20-43e8-8585-64471546eb15.PNG)
