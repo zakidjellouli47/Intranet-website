@@ -24,3 +24,11 @@ There are three user profiles (actors) for the intranet where each has a role ch
 # Class diagram 
 
 ![societe](https://user-images.githubusercontent.com/69325676/221445719-a0725289-2897-4aad-bfff-3334476008c2.jpg)
+
+#Implementation
+
+![login](https://user-images.githubusercontent.com/69325676/221583227-7799123e-6ec2-49cc-9fbb-cc0858d48799.PNG)
+![forget](https://user-images.githubusercontent.com/69325676/221583794-2e2c6740-64ea-43de-a4fe-0eb99a58a120.PNG)
+![accueuil](https://user-images.githubusercontent.com/69325676/221584970-6c6b6559-d4aa-42bb-a7aa-a8aab41e4736.PNG)
+![evenement](https://user-images.githubusercontent.com/69325676/221586465-913f3fbf-15dd-4a13-bc89-0aabdf82b1c5.PNG)
+![aderent](https://user-images.githubusercontent.com/69325676/221585658-0c745b37-96e5-4ae3-bc8c-aced7749a673.PNG)2e2c6740-64ea-43de-a4fe-0eb99a58a120.PNG)
