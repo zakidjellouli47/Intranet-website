@@ -20,3 +20,7 @@ There are three user profiles (actors) for the intranet where each has a role ch
 • President of the company: administers the intranet and is also responsible for managing user accounts.
 • Secretary: manages the company's administrative information and is responsible for the informative content of the intranet.
 • Treasurer: manages the company's financial documents.
+
+# Class diagram 
+
+![societe](https://user-images.githubusercontent.com/69325676/221445719-a0725289-2897-4aad-bfff-3334476008c2.jpg)
